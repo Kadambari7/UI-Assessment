@@ -1,0 +1,32 @@
+.heading{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #00455A;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+
+    @media screen and (max-width: 992px){
+        // .heading::after{
+        //     content: 'Properties managed by us';
+        // }
+        .heading{
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 120%;
+            text-align: center;
+            color: #00455A;
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+        }
+    }

@@ -1,0 +1,51 @@
+@import "box";
+@import "inside";
+@import "frame";
+@import "content";
+@import "headingss";
+@import "paragraph";
+@import "button";
+@import "about";
+@import "pass";
+@import "cont";
+
+.royal{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 80px;
+flex: none;
+order: 0;
+flex-grow: 0;
+width: 100%;
+}
+
+
+@media screen and (max-width: 992px){
+    .royal{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 23.78px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    

@@ -1,0 +1,55 @@
+@import "left";
+@import "right";
+@import "logo";
+@import "navitem";
+@import "buttton";
+
+
+.top-nav{
+    flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: black;
+    color: black;
+}
+.find{
+    display: none;
+}
+
+@media screen and (max-width: 992px){
+    .hamburger{
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .Nav-item{
+        display: flex;
+        background-color: bisque;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+
+    }
+    .find{
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 70px;
+    }
+    
+}
+
+

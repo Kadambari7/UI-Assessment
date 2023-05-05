@@ -1,0 +1,28 @@
+.headings{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+
+@media screen and (max-width: 992px){
+    .headings{
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 42.8px;
+        line-height: 120%;
+        text-align: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+}

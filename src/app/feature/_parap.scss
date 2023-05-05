@@ -1,0 +1,28 @@
+p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #00455A;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+
+@media screen and (max-width: 992px)
+    {
+        p{
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #00455A;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+        
+    }

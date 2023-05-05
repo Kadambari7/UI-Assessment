@@ -1,0 +1,110 @@
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 173px;
+    height: 48px;
+    background: #C1995B;
+    border-radius: 8px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    font-feature-settings: 'ss06' on, 'ss04' on, 'liga' off;
+    color: #FFFFFF;
+    border: none;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+
+
+
+    @media screen and (max-width: 992px){
+        button{
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 28px;
+        gap: 10px;
+        background: #C1995B;
+        border: 2px solid #C1995B;
+        border-radius: 8px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        font-feature-settings: 'ss06' on, 'ss04' on, 'liga' off;
+        color: #F8FAFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        }
+    }
+    
+
+
+    .btnn{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        padding: 12px 24px;
+        gap: 100px;
+        background: #C1995B;
+        border-radius: 8px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        font-feature-settings: 'ss06' on, 'ss04' on, 'liga' off;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        
+        }
+
+        @media screen and (max-width: 992px){
+            .btnn{
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 12px 24px;
+                gap: 10px;
+                background: #C1995B;
+                border: 2px solid #C1995B;
+                border-radius: 8px;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 150%;
+                text-align: center;
+                font-feature-settings: 'ss06' on, 'ss04' on, 'liga' off;
+                color: #F8FAFF;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+            }
+        }
+        
+
+

@@ -1,0 +1,20 @@
+.rightside{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    position: absolute;
+    right: 10pc;
+    
+    }
+    @media screen and (max-width: 992px){
+        .rightside{
+            position: absolute;
+            right: 20px;
+        }
+    }
+

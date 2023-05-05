@@ -1,0 +1,40 @@
+.footerlink1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    right: 15pc;
+    }
+
+    @media screen and (max-width: 992px){
+        .footerlink1{
+            font-size: 0;
+        }
+    }
+    .footerlink2{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        position: absolute;
+        right: 5pc;
+        }
+    
+
+        @media screen and (max-width: 992px){
+            .footerlink2{
+            font-size: 0;
+            }
+        }
+    a{
+        color: #FFFFFF;
+    }

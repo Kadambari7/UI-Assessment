@@ -1,0 +1,19 @@
+h4{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #F9F5EF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+
+    
+    @media screen and (max-width: 992px){
+        h4{
+            font-size: 0px;
+        }
+    }

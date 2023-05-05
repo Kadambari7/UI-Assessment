@@ -1,0 +1,34 @@
+@import "content";
+@import "heading";
+@import "para";
+@import "bttn";
+
+
+.ctaback{
+    display: flex;
+    //flex-direction: column;
+    //align-items: flex-start;
+    padding: 112px 64px;
+    //isolation: isolate;
+    background: #C1995B;
+    //flex: none;
+    //order: 5;
+    //flex-grow: 0;
+    //width: 50%;
+}
+
+.content1{
+    flex: 1;
+    width: 50%;
+    
+}
+img{
+    float: right;
+    width: 50%;
+}
+
+
+
+
+
+

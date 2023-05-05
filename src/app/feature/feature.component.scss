@@ -1,0 +1,23 @@
+@import "section";
+@import "h3heading";
+@import "parap";
+@import "imagee";
+
+.feature{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+background: #F9F5EF;
+padding: 112px 64px;
+gap: 80px;
+flex: none;
+order: 8;
+flex-grow: 0;
+
+}
+
+
+
+
+
